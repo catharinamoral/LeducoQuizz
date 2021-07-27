@@ -1,0 +1,148 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  background: #fafafa;
+}
+
+a {
+  color: #e88a26;
+}
+
+a:hover {
+  color: #fdd067;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  right: 15px;
+  bottom: 15px;
+  background: #333;
+  color: #fff;
+  transition: display 0.5s ease-in-out;
+  z-index: 99999;
+  transition: all ease-in-out 0.3s;
+}
+
+.back-to-top i {
+  font-size: 24px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.back-to-top:hover {
+  color: #fff;
+  background: #e88a26;
+}
+
+
+#header {
+  z-index: 997;
+  transition: all 0.5s;
+  background: #E08DE0;
+}
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.list-group{
+  list-style-type: none;
+}
+
+.opcao{
+  margin-bottom: 1rem;
+}
+
+.conf{
+  padding:1rem;
+}
+
+.btn-conf{
+  background-color: #55A99A;
+  color: #fff;
+  font-size:1rem;
+  padding-left:2.2rem;
+  padding-right:2.2rem;
+}
+
+/* teste */
+
+.radio-toolbar {
+  list-style-type: none;
+}
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 1.2rem;
+    border: 3px solid #E08DE0;
+    border-radius: 4px;
+}
+
+.radio-toolbar label .letra-opcao{
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #E08DE0;
+}
+
+/*
+  color: #55A99A;
+  */
+
+.radio-toolbar label:hover {
+  border: 3px solid #55A99A;
+}
+
+.radio-toolbar label:hover .letra-opcao{
+  color:#55A99A;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #c5eee6;
+    border-color: #55A99A;
+}
+
+.clique{
+  margin-top:2rem;
+  background-color: #55A99A;
+  padding:2rem;
+  color:#fff;
+  font-size:1.5rem;
+}
+
+.clique a{
+  color: #fff;
+  text-decoration: none;
+}
