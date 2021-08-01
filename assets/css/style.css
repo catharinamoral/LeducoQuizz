@@ -92,6 +92,7 @@ section {
 /* teste */
 
 .radio-toolbar {
+  padding: 0;
   list-style-type: none;
 }
 
@@ -145,4 +146,38 @@ section {
 .clique a{
   color: #fff;
   text-decoration: none;
+}
+
+
+.perfil{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 5%;
+    margin: auto;
+}
+
+.pontuacao{
+  background:#ccc;
+  border-radius: 7px;
+  padding:10px;
+}
+
+.moedapont{
+  margin-top: -10px;
+}
+
+.textorank{
+  margin-top: 15px;
+}
+
+.pessoarank{
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.pontospessoa{
+  margin-top: 10px;
 }
